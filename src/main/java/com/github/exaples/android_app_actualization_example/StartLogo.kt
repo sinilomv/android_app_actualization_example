@@ -48,9 +48,13 @@ class StartLogo : AppCompatActivity() {
         app = findViewById(R.id.textView4)
         logo = findViewById(R.id.textView3)
 
+        //Start logo animation
         animationText()
+
+        //Start actualization check
         verCheck()
     }
+
 
     private fun animationText(){
         val parent = findViewById<ConstraintLayout>(R.id.startLogoLayout)
@@ -259,10 +263,10 @@ class StartLogo : AppCompatActivity() {
         if (alert == null && builder == null) {
             progressBarStop()
             builder = AlertDialog.Builder(this)
-            builder!!.setTitle("Brak połączenia!")
-            builder!!.setMessage("Proszę połączyć się z internetem!")
+            builder!!.setTitle(resources.getString(R.string.no_connection))
+            builder!!.setMessage(resources.getString(R.string.please_connect_to_the_internet))
                     .setCancelable(false)
-                    .setNegativeButton("Wejdź w Ustawienia", { dialog, id -> this.startActivity(Intent(Settings.ACTION_WIFI_SETTINGS)) })
+                    .setNegativeButton(resources.getString(R.string.go_to_settings), { dialog, id -> this.startActivity(Intent(Settings.ACTION_WIFI_SETTINGS)) })
             alert = builder!!.create()
             if (!alert!!.isShowing) {
                 alert!!.show()

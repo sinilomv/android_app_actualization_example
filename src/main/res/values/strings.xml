@@ -11,4 +11,7 @@
     <string name="currently_have_the_latest_version_of_the_app">You currently have the latest version of the app!</string>
     <string name="connection_problem">Connection problem.    Please try again later.</string>
     <string name="str_actualization">ACTUALIZATION...</string>
+    <string name="no_connection">No connection!</string>
+    <string name="please_connect_to_the_internet">Please connect to the Internet!</string>
+    <string name="go_to_settings">Go to Settings</string>
 </resources>
