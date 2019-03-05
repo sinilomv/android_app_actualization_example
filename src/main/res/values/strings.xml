@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Actualization App Sample</string>
+    <string name="your_company_name">Your company name</string>
+    <string name="logo">LOGO</string>
+    <string name="app">APP</string>
+    <string name="update">Update</string>
+    <string name="do_you_want_to_update_the_app">Do you want to update the app?</string>
+    <string name="ver">Version</string>
+    <string name="already_available"> already available!</string>
+    <string name="later">Later</string>
+    <string name="currently_have_the_latest_version_of_the_app">You currently have the latest version of the app!</string>
+    <string name="connection_problem">Connection problem.    Please try again later.</string>
+    <string name="str_actualization">ACTUALIZATION...</string>
+</resources>
