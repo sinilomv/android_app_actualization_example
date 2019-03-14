@@ -13,3 +13,5 @@ Also you need add some permissions in your manifes, like :
 and internet ofcourse :
 
    <uses-permission android:name="android.permission.INTERNET" />
+   
+and that's all )
