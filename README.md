@@ -10,6 +10,6 @@ Also you need add some permissions in your manifes, like :
     <uses-permission android:name="android.permission.REQUEST_CLEAR_APP_CACHE"/>
     <uses-permission android:name="android.permission.REQUEST_MOUNT_UNMOUNT_FILESYSTEMS"/>
     
-and internet ofcourse :
+and internet of course :
 
     <uses-permission android:name="android.permission.INTERNET" />
